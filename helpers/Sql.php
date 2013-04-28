@@ -12,7 +12,7 @@ class Sql{
      * Локальна копія обєкту класу
      * @var Sql 
      */
-    private static $_database;
+    public static $_database;
     
     /**
      * Обєкт, що прдеставляє зєднання з MySQL
